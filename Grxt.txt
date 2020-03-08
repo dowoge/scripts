@@ -1,0 +1,39 @@
+if game.PlaceId == 2980539589 then  --Energy Drinking Simulator
+    loadstring(game:HttpGet("https://pastebin.com/raw/eqjmFkrd", true))()
+
+elseif game.PlaceId == 4704006941 then  --Blade Throwing Simulator
+    loadstring(game:HttpGet("https://pastebin.com/raw/4XGYSU7h", true))()
+ 
+elseif game.PlaceId == 4458733955 then  --Blade Simulator
+    loadstring(game:HttpGet("https://pastebin.com/raw/fi5gZv9c", true))()
+     
+elseif game.PlaceId == 3923754109 then -- Backflip Simulator
+    loadstring(game:HttpGet("https://hastebin.com/raw/xofanuleva", true))()
+
+elseif game.PlaceId == 4254575069 then --Champion Simulator
+    loadstring(game:HttpGet("https://hastebin.com/raw/umuzecizow", true))()
+
+elseif game.PlaceId == 4458733955 then  --Blade Simulator
+    loadstring(game:HttpGet("https://pastebin.com/raw/fi5gZv9c", true))()
+
+elseif game.PlaceId == 3101667897 then -- Legends of Speed
+    loadstring(game:HttpGet("https://hastebin.com/raw/rolisoluva", true))()
+     
+elseif game.PlaceId == 4399032158 then  --Thick Legends
+    loadstring(game:HttpGet("https://pastebin.com/raw/WV0QAKPx", true))()
+     
+elseif game.PlaceId == 2870343637 then  --Titan God Simulator
+    loadstring(game:HttpGet("https://pastebin.com/raw/QipKyQFW", true))()
+
+elseif game.PlaceId == 3946738988 then -- Hammer Simulator
+    loadstring(game:HttpGet("https://hastebin.com/raw/erajawavef", true))()
+
+elseif game.PlaceId == 4539184430 then -- Speed Champions
+    loadstring(game:HttpGet("https://hastebin.com/raw/ogakoqawoy", true))()
+
+elseif game.PlaceId == 3823781113 then -- Saber Simulator
+    loadstring(game:HttpGet("https://pastebin.com/raw/UyAKiLyv", true))()
+
+elseif game.PlaceId == 3956818381 then -- Ninja Legends
+    loadstring(game:HttpGet("https://pastebin.com/raw/0V0gQ5qe", true))()
+end
