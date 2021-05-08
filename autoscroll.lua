@@ -6,5 +6,4 @@ game:GetService('RunService').RenderStepped:Connect(function()
     if hit and game:GetService('UserInputService'):IsKeyDown(Enum.KeyCode.Space) then
         mousescroll(1337)
     end
-    last=speed
 end)
