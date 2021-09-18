@@ -1,5 +1,5 @@
-getgenv().aimkey = 'f'
-getgenv().autoclick = true
+getgenv().aimkey = getgenv().aimkey or 'f'
+getgenv().autoclick = getgenv().autoclick or true
 
 local plr = game.Players.LocalPlayer
 local mouse2 = plr:GetMouse()
