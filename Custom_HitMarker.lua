@@ -75,7 +75,6 @@ rs:BindToRenderStep('CustomHit',170,function()
             local LastPosition=SimPhys.Position
             while Simulation.ShouldRun and SimPhys.Time-Time<MaxTime do
                 t=t+1
-                print('run '..t)
                 if SimPhys:Tick(Time + t / TickRate) then
                     local Position=SimPhys.Position
                     if Position==LastPosition then
