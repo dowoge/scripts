@@ -14,7 +14,7 @@ h=hookfunc(call,function(...)
         if not (msg:sub(1,1)=='/'or msg:sub(1,1)=='!') then
             local final=''
             for i in msg:gmatch('.') do
-                final=final..i..'<intensify:100000:<1:'..string.char(math.random(97,122))..'>>'
+                final=final..i..'<mlg:100:11251521:<1:fan>>'
             end
             return h(args[1],string.sub(final,1,#final-24))
         end
