@@ -7,16 +7,19 @@ for i,v in pairs(getgc(true))do
         end
     end
 end
+local funnystring='<mlg:100:11251521:<1:him>>'
+local prefix=';'
 h=hookfunc(call,function(...)
     local args={...}
     if args[1]=='Chatted' then
         local msg=table.concat(args,' ',2)
-        if not (msg:sub(1,1)=='/'or msg:sub(1,1)=='!') then
-            local final=''
+        if not (msg:sub(1,1)=='/'or msg:sub(1,1)=='!') and msg:sub(1,1)==prefixthen
+            msg=msg:sub(1+#prefix,#msg)
+            local final=funnystring
             for i in msg:gmatch('.') do
-                final=final..i..'<mlg:100:11251521:<1:fan>>'
+                final=final..i..funnystring
             end
-            return h(args[1],string.sub(final,1,#final-24))
+            return h(args[1],string.sub(final,1,#final-#funnystring))
         end
     end
     return h(...)
