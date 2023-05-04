@@ -31,7 +31,7 @@ for folder in os.ls(rblxpath+'\\Versions')! {
 				println('ClientSettings folder already exists in $folder')
 			}
 			if !os.is_file(versionpath+'\\ClientSettings\\ClientAppSettings.json') {
-				os.write_file(versionpath+'\\ClientSettings\\ClientAppSettings.json', '{"FFlagHandleAltEnterFullscreenManually":"False"}')!
+				os.write_file(versionpath+'\\ClientSettings\\ClientAppSettings.json', '{"FFlagHandleAltEnterFullscreenManually":"False","DFIntTaskSchedulerTargetFps":5588562}')!
 				println('Wrote file to $folder')
 			} else {
 				println('ClientAppSettings.json already exists in $folder')
