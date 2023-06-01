@@ -1,3 +1,4 @@
+// SEE DEDICATED REPOSITORY FOR REWRITTEN PROGRAM: https://github.com/dowoge/alt_enter_fix
 import os
 
 mut rblxpath := ''
